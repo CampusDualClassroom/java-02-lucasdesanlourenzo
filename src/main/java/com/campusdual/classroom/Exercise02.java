@@ -3,16 +3,15 @@ package com.campusdual.classroom;
 public class Exercise02 {
 
     public static void main(String[] args) {
-        double r = 15;
-        double a, l;
+        double r = 7.5; // Radio
+        double pi = Math.PI;
 
-        // TODO: ↓ Fórmula del área de un círculoS: a = radio * radio * Número PI
 
-        System.out.println("Area: " + a);
+        double area = pi * Math.pow(r, 2);
+        System.out.println("Área del círculo: " + area);
 
-        // TODO: ↓ Fórmula de la longitud de una circunferencia: l = 2 * radio * Número PI
 
-        System.out.println("Longitud:  " + l);
-
+        double circunferencia = 2 * pi * r;
+        System.out.println("Longitud de la circunferencia: " + circunferencia);
     }
 }
